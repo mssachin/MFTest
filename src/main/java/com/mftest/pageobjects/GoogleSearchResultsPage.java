@@ -40,7 +40,8 @@ public class GoogleSearchResultsPage {
                 String linkURL =linkElements.get(i).getText();
                 System.out.println("Link Text is " + linkURL);
                 if (linkURL.contains(requiredLink)) {
-                    linkElements.get(i).click();
+                    Actions action  = new Actions(driver);
+                    action.click(linkElements.get(i)).build().perform();
                     foundMatch = true;
                     break;
                 }else if(i==linkElements.size()-1 & !(linkURL.contains(requiredLink))){

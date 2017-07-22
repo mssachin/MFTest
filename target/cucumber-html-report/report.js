@@ -87,7 +87,7 @@ formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.i_have_launched_google_homepage()"
 });
 formatter.result({
-  "duration": 2864363041,
+  "duration": 2660236872,
   "status": "passed"
 });
 formatter.match({
@@ -100,7 +100,7 @@ formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.i_search_based_on_a_and_navigate_to_search_results_page(String)"
 });
 formatter.result({
-  "duration": 776882472,
+  "duration": 805241137,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +113,7 @@ formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.in_the_search_results_I_look_for_a_specific(String)"
 });
 formatter.result({
-  "duration": 24917721092,
+  "duration": 21934069997,
   "status": "passed"
 });
 });
