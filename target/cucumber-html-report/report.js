@@ -26,11 +26,16 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "in the search results I look for a specific \"\u003clink\u003e\"",
+  "name": "in the search results I look for a specific \"\u003clink\u003e\" and click on it",
   "keyword": "Then "
 });
+formatter.step({
+  "line": 12,
+  "name": "I verify the link details",
+  "keyword": "And "
+});
 formatter.examples({
-  "line": 16,
+  "line": 17,
   "name": "",
   "description": "",
   "id": "search-for-iphone-and-assert-results;search-for-iphone;",
@@ -40,7 +45,7 @@ formatter.examples({
         "keyword",
         "link"
       ],
-      "line": 17,
+      "line": 18,
       "id": "search-for-iphone-and-assert-results;search-for-iphone;;1"
     },
     {
@@ -48,14 +53,14 @@ formatter.examples({
         "Iphone",
         "Amazon"
       ],
-      "line": 18,
+      "line": 19,
       "id": "search-for-iphone-and-assert-results;search-for-iphone;;2"
     }
   ],
   "keyword": "Examples"
 });
 formatter.scenario({
-  "line": 18,
+  "line": 19,
   "name": "Search for Iphone",
   "description": "",
   "id": "search-for-iphone-and-assert-results;search-for-iphone;;2",
@@ -77,17 +82,22 @@ formatter.step({
 });
 formatter.step({
   "line": 11,
-  "name": "in the search results I look for a specific \"Amazon\"",
+  "name": "in the search results I look for a specific \"Amazon\" and click on it",
   "matchedColumns": [
     1
   ],
   "keyword": "Then "
 });
+formatter.step({
+  "line": 12,
+  "name": "I verify the link details",
+  "keyword": "And "
+});
 formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.i_have_launched_google_homepage()"
 });
 formatter.result({
-  "duration": 2660236872,
+  "duration": 2772258108,
   "status": "passed"
 });
 formatter.match({
@@ -100,7 +110,7 @@ formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.i_search_based_on_a_and_navigate_to_search_results_page(String)"
 });
 formatter.result({
-  "duration": 805241137,
+  "duration": 3683385535,
   "status": "passed"
 });
 formatter.match({
@@ -113,7 +123,14 @@ formatter.match({
   "location": "SearcBasedOnKeyWordDefinition.in_the_search_results_I_look_for_a_specific(String)"
 });
 formatter.result({
-  "duration": 21934069997,
+  "duration": 28718850271,
+  "status": "passed"
+});
+formatter.match({
+  "location": "SearcBasedOnKeyWordDefinition.i_verify_the_link_details()"
+});
+formatter.result({
+  "duration": 8433066661,
   "status": "passed"
 });
 });

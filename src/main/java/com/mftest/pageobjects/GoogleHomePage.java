@@ -18,10 +18,10 @@ public class GoogleHomePage {
     }
 
 
-    public GoogleSearchResultsPage searchBasedOnFreeText(String searchPhrase){
+    public GoogleSearchResultsPage searchBasedOnFreeText(String searchPhrase) throws InterruptedException {
         WebElement searchBoxElement = driver.findElement(searchBoxLocator);
         searchBoxElement.sendKeys(searchPhrase);
-
+        Thread.sleep(3000l);
         WebElement searchButtonElement = driver.findElement(searchButtonLocator);
         searchButtonElement.click();
 

@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="898bb727-a731-4d79-893c-4989290b2119" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/AmazonIPhonePage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mftest/pageobjects/GoogleHomePage.class" afterPath="$PROJECT_DIR$/target/classes/com/mftest/pageobjects/GoogleHomePage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/mftest/pageobjects/GoogleSearchResultsPage.class" afterPath="$PROJECT_DIR$/target/classes/com/mftest/pageobjects/GoogleSearchResultsPage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.class" afterPath="$PROJECT_DIR$/target/test-classes/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleSearchResultsPage.java" afterPath="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleSearchResultsPage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.java" afterPath="$PROJECT_DIR$/src/test/java/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/features/GoogleSearchForIPhone.feature" afterPath="$PROJECT_DIR$/src/test/resources/features/GoogleSearchForIPhone.feature" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/cucumber-html-report/report.js" afterPath="$PROJECT_DIR$/target/cucumber-html-report/report.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/features/GoogleSearchForIPhone.feature" afterPath="$PROJECT_DIR$/target/test-classes/features/GoogleSearchForIPhone.feature" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +39,8 @@
       <file leaf-file-name="GoogleHomePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="367">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#424#425#0" expanded="true" />
@@ -46,8 +53,8 @@
       <file leaf-file-name="GoogleSearchForIPhone.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/GoogleSearchForIPhone.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,10 +63,24 @@
       <file leaf-file-name="SearcBasedOnKeyWordDefinition.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="54" column="57" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AmazonIPhonePage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/AmazonIPhonePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,12 +99,12 @@
       <file leaf-file-name="GoogleSearchResultsPage.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleSearchResultsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="146">
-              <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+            <state relative-caret-position="155">
+              <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#807#808#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#864#865#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -133,8 +154,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mftest/base/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mftest/config/config.properties" />
         <option value="$PROJECT_DIR$/src/test/java/com/mftest/runners/CucumberTestunner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/GoogleSearchForIPhone.feature" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/AmazonIPhonePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleSearchResultsPage.java" />
       </list>
@@ -395,6 +417,11 @@
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -717,40 +744,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 39m 57s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 08m 05s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 42m 18s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 09m 47s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 47m 47s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 11m 15s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 49m 46s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 11m 30s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 51m 54s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 11m 51s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 52m 17s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 13m 04s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 52m 41s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 14m 49s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 12h 54m 38s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 22m 34s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 13h 06m 20s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 23m 50s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CucumberTestunner - 2017.07.22 at 13h 07m 53s.xml">
+    <history-entry file="CucumberTestunner - 2017.07.22 at 15h 24m 50s.xml">
       <configuration name="CucumberTestunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-66" y="31" width="1280" height="729" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -767,7 +793,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -828,8 +854,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleHomePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="367">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#424#425#0" expanded="true" />
@@ -838,18 +864,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/AmazonIPhonePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/GoogleSearchForIPhone.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/mftest/stepdefinitions/SearcBasedOnKeyWordDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="314">
+          <caret line="54" column="57" lean-forward="true" selection-start-line="54" selection-start-column="57" selection-end-line="54" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -858,15 +896,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mftest/pageobjects/GoogleSearchResultsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="72" selection-end-line="43" selection-end-column="72" />
+        <state relative-caret-position="155">
+          <caret line="43" column="38" lean-forward="false" selection-start-line="43" selection-start-column="38" selection-end-line="43" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#807#808#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MFTechTest</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

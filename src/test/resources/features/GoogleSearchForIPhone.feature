@@ -8,7 +8,8 @@ So that I can see the desired results and act accordingly
 Scenario Outline: Search for Iphone
 Given I have launched google homepage
 When I search based on a "<keyword>" and navigate to search results page
-Then in the search results I look for a specific "<link>"
+Then in the search results I look for a specific "<link>" and click on it
+And I verify the link details
 
 
 
